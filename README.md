@@ -40,3 +40,7 @@ For more details, refer to source file [McastCounter.py](McastCounter.py).
 
 Refer to the 'McastCounter.py' SNAPpy script for more information about the
 McastCounter demo. 
+
+## License
+
+Copyright © 2016 [Synapse Wireless](http://www.synapse-wireless.com/), licensed under the [Apache License v2.0](LICENSE.md).
