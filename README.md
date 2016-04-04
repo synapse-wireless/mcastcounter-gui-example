@@ -3,7 +3,7 @@
 # SNAPconnect Example - McastCounter GUI in wxPython
 
 This GUI application provides a wxPython GUI that participates in the McastCounter
-multi-node demonstration via SNAP Connect.
+multi-node demonstration via SNAPconnect.
 
 ## Background
 
@@ -34,7 +34,7 @@ python McastCounter.py
 A small wxPython dialog box should appear, containing a button labeled "Increment"
 as well as a "Count:" field. "setButtonCount()" calls from other SNAP nodes should
 update the "Count:" field, and you can also trigger setButtonCount() calls from the
-SNAP Connect application by clicking on the "Increment" button.
+SNAPconnect application by clicking on the "Increment" button.
 
 For more details, refer to source file [McastCounter.py](McastCounter.py).
 
