@@ -24,7 +24,7 @@ Other wxPython versions (both older and newer) may also work.
 
 Edit the `BRIDGE_NODE` tuple near the top of [McastCounter.py](McastCounter.py) to provide the serial
 interface "type" and "port" of your bridge node.
-    
+
 Once you have edited McastCounter.py for your available hardware, simply run:
 
 ```bash
@@ -38,8 +38,7 @@ SNAP Connect application by clicking on the "Increment" button.
 
 For more details, refer to source file [McastCounter.py](McastCounter.py).
 
-Refer to the 'McastCounter.py' SNAPpy script for more information about the
-McastCounter demo. 
+Refer to the 'McastCounter.py' SNAPpy script for more information about the McastCounter demo.
 
 ## License
 
