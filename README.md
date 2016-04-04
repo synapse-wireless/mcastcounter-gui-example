@@ -2,7 +2,9 @@
 
 # SNAPconnect Example - McastCounter GUI in wxPython
 
-This GUI application provides a wxPython GUI that participates in the McastCounter
+![wxPython McastCounter Demo](https://cloud.githubusercontent.com/assets/1317406/14266506/61511b30-fa8e-11e5-9fe0-7d905a0f81ea.gif)
+
+This example application provides a wxPython GUI that participates in the McastCounter
 multi-node demonstration via SNAPconnect.
 
 ## Background
