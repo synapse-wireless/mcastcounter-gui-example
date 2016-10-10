@@ -48,14 +48,14 @@ frame.SetSizerAndFit(boxo)
 setButtonCount(0)  # initialize the button count to 0
 frame.Bind(wx.EVT_BUTTON, guiButtonPressed)  # register for button clicks
 
-# Create the SNAPConnect instance and expose the 'setButtonCount' function
+# Create the SNAPconnect instance and expose the 'setButtonCount' function
 comm = snap.Snap(funcs={'setButtonCount': setButtonCount})
 if BRIDGE_NODE['type'] == 'TCP':
     comm.connect_tcp(BRIDGE_NODE['host'], port=BRIDGE_NODE['port'])
 else:
     comm.open_serial(BRIDGE_NODE['type'], BRIDGE_NODE['port'])
 
-# Start a timer that fires every 20ms and gives the SNAPConnect
+# Start a timer that fires every 20ms and gives the SNAPconnect
 # instance some attention
 poller = wx.Timer(frame)
 frame.Bind(wx.EVT_TIMER, lambda event: comm.poll())
